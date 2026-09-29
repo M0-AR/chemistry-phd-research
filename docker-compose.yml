@@ -1,0 +1,13 @@
+services:
+  research:
+    build: .
+    image: chemistry-phd-research:2026
+    container_name: chemistry-phd-research
+    working_dir: /workspace
+    volumes:
+      - .:/workspace
+    environment:
+      - PYTHONPATH=/workspace/src
+      - MPLBACKEND=Agg
+      - SEED=42
+    command: tail -f /dev/null

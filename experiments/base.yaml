@@ -1,0 +1,6 @@
+seed: 42
+temperature_K: 273.15
+pressure_atm: 1.0
+R_L_atm: 0.082057
+water_specific_heat: 4.184
+reference: "Chang Chemistry 10th Ed."

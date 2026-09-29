@@ -1,0 +1,15 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>chemistry-phd-research — 12s results tour</title>
+<style>body{font-family:system-ui,Arial;margin:0;background:#0b1020;color:#e8ecf8}header{padding:28px 32px;background:linear-gradient(90deg,#1e3a8a,#06b6d4)}h1{margin:0;font-size:28px}p.sub{margin:6px 0 0;opacity:.9}main{padding:24px 32px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}.card{background:#151d33;border:1px solid #2a3a5f;border-radius:12px;padding:14px}.k{font-size:12px;opacity:.7}.v{font-size:22px;font-weight:700}.ok{color:#34d399}footer{padding:16px 32px;opacity:.7;font-size:13px}code{background:#0f172a;padding:2px 6px;border-radius:6px}</style></head><body>
+<header><h1>chemistry-phd-research — seed 42 green in 12s</h1><p class="sub">Chang 10th Ch1-25 • 23 tests • Docker Silver • NIST live anchors • MIT</p></header>
+<main><div class="grid">
+<div class="card"><div class="k">H2O molar mass</div><div class="v ok">18.015 g/mol</div><div class="k">NIST 18.0153 PASS</div></div>
+<div class="card"><div class="k">STP volume</div><div class="v ok">22.414 L</div><div class="k">1 mol 273.15K 1 atm</div></div>
+<div class="card"><div class="k">pH 0.01M HCl</div><div class="v ok">2.00</div><div class="k">Ch15</div></div>
+<div class="card"><div class="k">Daniell E</div><div class="v ok">1.10 V</div><div class="k">Ch19 Nernst</div></div>
+<div class="card"><div class="k">H2+Cl2 ΔH</div><div class="v ok">-184.7 kJ</div><div class="k">Ch9 BE</div></div>
+<div class="card"><div class="k">Osmotic 1M</div><div class="v">24.47 atm</div><div class="k">Ch12 π=MRT</div></div>
+<div class="card"><div class="k">AgCl solubility</div><div class="v">1.26e-05 M</div><div class="k">Ch16 sqrtKsp</div></div>
+<div class="card"><div class="k">C-14 half</div><div class="v">0.50</div><div class="k">Ch23 N=N0e^-λt</div></div>
+</div><p>Repro: <code>docker compose up -d --build research</code> → <code>pytest -q</code> → <code>make benchmark-all</code>. Results generated never hand-edited. Live NIST: water 18.0153 ΔfH -241.826 S 188.835.</p></main>
+<footer>MIT • docs/chapters 25 files • results/tables.md • demo.tape for VHS GIF</footer></body></html>
